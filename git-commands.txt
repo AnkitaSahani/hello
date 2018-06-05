@@ -1,0 +1,22 @@
+GIT:- GIT is a Version Control System used to track a computer files on which it is working.It is used for source code management in software development.It allows may people to work together with other developers.
+Steps to set up GIT on your computer:
+Step1:-First we need to install GIT on our computer.
+Step2:-we need to make a repository on our computer with name as "hello"
+Step3:-To associate this hello repository to our GIT we need to run commands on our command line terminal.The commands are
+    1:cd - used to move into the directory through command line.
+    2:cd .. - used to move back out of a directory.
+    3:git init - used to intialize the repository through git.
+Step4:-Now we will make a text file as "git-commands" in our repository.
+Step5:-We will run more git commands:
+    1:git status - used to know what is going in your repository.
+        for the above command we get that the file is untracked by the git
+    2:git add git-commands - it is used to track the file of the repository.
+    3:git commit -m "Git commands" - it is used to commit the commands
+GITHUB:- It is the web based Git Repository and put our folder on the cloud based storage.
+To add the repository to our git hub.
+First we need to sign up to git up account.
+To add the repository we need to click + sign on the top.
+When you have created the repository then run commands:
+    1:git remote add origin "the link in your repository" - used to link the repository file on git hub.
+    2:git push -u origin master - used to push the file on git hub.
+You are ready with the repository.
